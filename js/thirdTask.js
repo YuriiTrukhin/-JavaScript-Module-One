@@ -7,15 +7,13 @@ const ACCESS_IS_ALLOWED = "Добро пожаловать!";
 const ACCESS_DENIED = "Доступ запрещен, неверный пароль!";
 let message;
 if (userPassword === "jqueryismyjam") {
-  message = "Добро пожаловать!";
+  message = ACCESS_IS_ALLOWED;
 } else if (userPassword === null) {
-  message = "Отменено пользователем!";
+  message = CANCELED_BY_USER;
 } else if (userPassword === "") {
-  message = "Отменено пользователем!";
+  message = CANCELED_BY_USER;
 } else if (userPassword != "jqueryismyjam") {
-  message = "Доступ запрещен, неверный пароль!";
-} else {
-  console.log("Invalid subscription type");
+  message = ACCESS_DENIED;
 }
 // Write code under this line
 
