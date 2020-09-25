@@ -10,3 +10,21 @@
 // }
 
 // console.log(`Total sum: ${sum}`);
+
+// let cost;
+// const experience = "profi";
+
+// switch (experience) {
+//   case "profi":
+//     cost = 800;
+//     break;
+//   case "mid":
+//     cost = 500;
+//     break;
+//   case "looser":
+//     cost = 200;
+//     break;
+//   default:
+//     console.log("Invalid subscription type");
+// }
+// console.log(cost);
